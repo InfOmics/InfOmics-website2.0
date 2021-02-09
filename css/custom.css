@@ -1,0 +1,116 @@
+.navbar-brand{
+    margin-left: 2em;
+}
+.head-section-home{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#01579b,#59b988)
+}
+.head-section-people{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#9b2c01,#c09f26)
+}
+.head-section-research{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#4b22a9,#0e635c)
+}
+.head-section-research{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#296f2b,#0e635c)
+}
+.head-section-contact{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#4b22a9,#0e635c)
+}
+.head-section-software{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#4b22a9,#707925)
+}
+.head-section-publications{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#c15271,#0e635c)
+}
+
+
+.head-section nav{
+    background-color: #ffffff1a;
+}
+.head-section a{
+    color: white;
+}
+.head-section-home a:hover{
+    color: #81dfd7;
+}
+.head-section-people a:hover{
+    color: #dbe364;
+}
+
+.head-section button{
+    color:white
+}
+.presentation{
+    text-align: center;
+    padding: 5em;
+    margin:auto
+}
+.presentation img{
+    width: 70%;
+    max-width: 20em;
+    display:block;
+    margin: auto;
+}
+.presentation p{
+    display: inline;
+    color: white;
+}
+.presentation span{
+    color:#a9fbff;
+}
+.presentation h1, .presentation h2{
+    color: white;
+}
+.presentation-text{
+    max-width: 30em;
+    margin:auto;
+    margin-top: 2em;
+}
+.research{
+    padding: 3em;
+    text-align: justify;
+}
+.row{
+    margin-top: 2em;
+}
+.accordion h2, .accordion .accordion-collapse{
+    border: white;
+}
+.container-people a{
+    color: #f3ad6f;
+    text-decoration:underline
+}
+.container-people .card-text{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#map{
+    margin-top: 3em;
+}
+.container-contact p{
+    margin:0;
+}
+.container-contact h3{
+    font-size: 1.4em;
+    margin:0;
+    margin-top: 1em;
+}
+.container-contact a{
+    color: #9884ff;
+    text-decoration:underline
+}
+.publications-container{
+    margin-top: 4em;
+}
+.publications-container .card, .container-people .card{
+    margin-bottom: 2em;
+}
+.publications-container .card-text, .container-people .card{
+    font-size: 0.8em;
+}
+.publications-container .card-body a, .container-people .card-body a{
+    font-size: 0.7em;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Softwares</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="../css/mdb.min.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class="head-section head-section-software">
+    <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+      <!-- Container wrapper -->
+      <div class="container-fluid ">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="../img/homepage/Infoverona.png"
+            height="100"
+            alt="Lab Logo"
+          />
+        </a>
+
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">HOMEPAGE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./research.html">RESEARCH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./people.html">PEOPLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./publications.html">PUBLICATIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SOFTWARES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item github">
+              <a class="nav-link" href="https://github.com/InfOmics" target="_blank">
+                <span><i class="fab fa-github"></i></span>
+              </a>
+            </li>
+          </ul>
+          
+        </div>
+
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+      <div class="container-fluid presentation">
+        <h1>Softwares</h1>
+      </div>
+    </div>
+    <div class="container-md container-people">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 align-self-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">CRISPRitz Tool package to perform in-silico 
+                CRISPR analysis and assessment</h5>
+              <p class="card-text">
+                CRISPRitz is a software package containing 5 different tools 
+                dedicated to perform predictive analysis and result assessement 
+                on CRISPR/Cas experiments.
+              </p>
+              <a class="btn btn-primary" href="https://github.com/InfOmics/CRISPRitz" 
+                target="_blank">CRISPRitz - Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 align-self-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">LErNet Characterization of lncRNAs via 
+                context-aware network expansion and enrichment analysis</h5>
+              <p class="card-text">
+                LErNet is a method to in silico define and predict the roles of 
+                IncRNAs. The core of the approach is a network expansion algorithm 
+                which enriches the genomic context of IncRNAs. The context is 
+                built by integrating the genes encoding proteins that are found 
+                next to the non-coding elements both at genomic and system level. 
+                The pipeline is particularly useful in situations where the 
+                functions of discovered IncRNAs are not yet known.
+              </p>
+              <a class="btn btn-primary" href="https://github.com/InfOmics/LErNet" 
+                target="_blank">LErNet - Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 align-self-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">PanDelos A dictionary-based method for 
+                pan-genomic contents discovery</h5>
+              <p class="card-text">
+                PanDelos is a stand alone tool for the discovery of pan-genome 
+                contents among phylogenetic distant genomes. The methodology is 
+                based on information theory and network analysis. It is 
+                parameter-free because thresholds are automatically deduced from the context.
+              </p>
+              <a class="btn btn-primary" href="https://github.com/InfOmics/PanDelos" 
+                target="_blank">PanDelos - Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 align-self-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">cuRnet An R package for graph traversing on GPU</h5>
+              <p class="card-text">
+                cuRnet is a package that provides a wrap of parallel graph algorithms 
+                developed in CUDA for the R environment. It makes available GPU 
+                solutions to R end-users in a transparent way, by including basic 
+                data structures for representing graphs, and parallel implementation 
+                of of BFS (Breadth-First Search), SCC (Strongly Connected Components) 
+                and SSSP (Single-Source Shortest Paths) customized for biological 
+                network analysis on GPUs (Busato and Bombieri, 2016).
+              </p>
+              <a class="btn btn-primary" href="https://github.com/InfOmics/cuRnet" 
+                target="_blank">cuRnet - Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 align-self-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">APPAGATO an APproximate PArallel and 
+                stochastic GrAph querying TOol for biological networks</h5>
+              <p class="card-text">
+                APPAGATO is a stochastic and parallel algorithm to find 
+                approximate occurrences of a query network in biological networks. 
+                APPAGATO allows nodes and edges mismatches. To speed-up the querying 
+                process, APPAGATO has been also implemented in parallel to run on 
+                graphics processing units (GPUs).
+              </p>
+              <a class="btn btn-primary" href="https://github.com/InfOmics/APPAGATO" 
+                target="_blank">APPAGATO - Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 align-self-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">GraphGrep A Fast and Universal Method for Querying Graphs</h5>
+              <p class="card-text">
+                GraphGrep is an application-independent merthod for querying graphs, 
+                finding all the occurrences of a subgraph in a database of graphs. 
+                The interface to Graph-Grep is a regular expression graph query 
+                language Glide that combines features from Xpath and Smart. Glide 
+                incorporates both single node and variable-length wildcards. It 
+                uses hash-based fingerprinting to represent the graphs in an 
+                abstract form and to filter the database. Graphs and Indexes 
+                are stored in K and BerkeleyDB relational database. This is a 
+                partial map of the software GraphGrep (and its variants GraphGrepSX 
+                and SING )(graph searching tools) users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
