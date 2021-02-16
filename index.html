@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>InfOmics</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../img/homepage/logo.ico">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -47,9 +47,6 @@
                 <a class="nav-link active" aria-current="page" href="#">HOMEPAGE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/research.html">RESEARCH</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="./pages/people.html">PEOPLE</a>
               </li>
               <li class="nav-item">
@@ -59,7 +56,7 @@
                 <a class="nav-link" href="./pages/software.html">SOFTWARES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/contact.html">CONTACT US</a>
+                <a class="nav-link" href="./pages/news.html">NEWS</a>
               </li>
               <li class="nav-item github">
                 <a class="nav-link" href="https://github.com/InfOmics" target="_blank">
@@ -80,42 +77,204 @@
       </div>
     </div>
   </div>
-  <div class="research">
-    Our research goes from 
-    Genome to Network analysis in order to understand biological systems 
-    under specific conditions. In particular, we develop algorithms for 
-    searching in labeled directed and undirected graphs or multigraphs. 
-    Up to date, we have designed ones of the fastest algorithms for subgraph 
-    database search, subgraph matching with or without redundancy on the 
-    results. We have addressed the problem of finding significant unusually 
-    subneworks, named motifs, overcoming to the consuming step of network 
-    simulation by providing analytical models. Our algorithms are the basis 
-    to understand the topological proprieties of biological systems. 
-    In order to analyze their dynamics, we model signaling and metabolic 
-    pathways by using languages, techniques, and tools well established in 
-    the context of electronic design automation. Our intuition here is that 
-    several characteristics and issues to model biological systems are 
-    common to the electronics system modelling, such as concurrency, 
-    reactivity, abstraction levels, as well as state space explosion 
-    during validation. We study static and dynamic network characteristics 
-    by associating to nodes profiles information from genomic and 
-    trascriptomic data. We work both with bulk and single cell data. 
-    Here we customize and develop pipelines for genomic variants detections 
-    and annotation, for coding and non coding deferential analysis. 
-    We also design predict models that from data expression construct 
-    network of interactions in particular for small, circular, circulate 
-    RNA interferences. We study new theoretical methods aimed at 
-    investigating biological sequences by using information theory, 
-    algorithmic approaches and advanced data structure engineering, 
-    from DNA to RNA level. The goal is reached by defining mathematical 
-    representations that characterize biological sequences and that allow 
-    us to investigate single molecule properties as well as to examine the 
-    composition of set of sequences. Our algorithms are developed sequential 
-    and in several cases, also in parallel (multicore or GPU). Our studies 
-    produce software and data available for the open research development 
-    and distributed in the appropriate platforms (web based, Cytoscape and R).
+  <div class="container-md container-md-home">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <div class="container-contact">
+              <h2>Contacts</h2>
+              <h3>
+                <a href="https://www.di.univr.it/?ent=persona&amp;id=35790&amp;lang=en" target="_blank">
+                  Rosalba Giugno, PhD
+                </a>
+              </h3>
+              <p>Associate Professor, CEO</p>
+              <p>+39 045 802 7066</p>
+              <p>rosalba.giugno@univr.it</p>
+              <p>Strada Le Grazie, 15</p>
+              <p>37134, Verona, Italy</p>
+    
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 lab-photo">
+      </div>
+      <div class="col-12 col-lg-4">
+        <h2>News</h2>
+        <!-- Carousel wrapper -->
+        <div
+        id="carouselBasicExample"
+        class="carousel slide carousel-fade"
+        data-mdb-ride="carousel"
+        >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"></li>
+          <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"></li>
+        </ol>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <a href="./pages/news.html">
+              <img
+                src="./img/news/biomarker_det.png"
+                class="d-block w-100"
+                alt="Manuscript image"
+              />
+            </a>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <a href="./pages/news.html">
+              <img
+                src="./img/news/biomarker_det_bis.png"
+                class="d-block w-100"
+                alt="Manuscript image"
+              />
+            </a>
+          </div>
+
+          <!-- Single item -->
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <a
+          class="carousel-control-prev"
+          href="#carouselBasicExample"
+          role="button"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselBasicExample"
+          role="button"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+        </div>
+        <!-- Carousel wrapper -->
+      </div>
+    </div> 
   </div>
-  
+  <div class="research-topic-one">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <h2>Computational Pangenomics</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Maecenas fringilla, felis sed faucibus interdum, nunc 
+            lacus tristique purus, eu iaculis quam ligula id diam. 
+            Nam sed faucibus est. Sed id congue purus, nec ultricies 
+            risus.</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <h3>Selected Publication</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Maecenas fringilla, felis sed faucibus interdum, nunc 
+            lacus tristique purus, eu iaculis quam ligula id diam. 
+            Nam sed faucibus est. Sed id congue purus, nec ultricies 
+            risus. Sed efficitur, lacus a tincidunt luctus, augue nunc 
+            tempor magna, sit amet varius nunc arcu at tortor. Integer 
+            cursus aliquam mauris ac euismod. Integer porta mattis 
+            molestie. Nam dictum lacus et tempus vestibulum. Phasellus 
+            sed tincidunt nunc. Nunc iaculis finibus nunc non molestie. 
+            Phasellus et magna id tortor ornare pulvinar sit amet ut enim. 
+            xSed a massa et neque ultrices efficitur.</p>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="research-topic-two">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h3>Selected Publication</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Maecenas fringilla, felis sed faucibus interdum, nunc 
+                      lacus tristique purus, eu iaculis quam ligula id diam. 
+                      Nam sed faucibus est. Sed id congue purus, nec ultricies 
+                      risus. Sed efficitur, lacus a tincidunt luctus, augue nunc 
+                      tempor magna, sit amet varius nunc arcu at tortor. Integer 
+                      cursus aliquam mauris ac euismod. Integer porta mattis 
+                      molestie. Nam dictum lacus et tempus vestibulum. Phasellus 
+                      sed tincidunt nunc. Nunc iaculis finibus nunc non molestie. 
+                      Phasellus et magna id tortor ornare pulvinar sit amet ut enim. 
+                      xSed a massa et neque ultrices efficitur.
+        </div>
+        <div class="col-12 col-lg-4">
+          <h2>Cancer Genomics</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Maecenas fringilla, felis sed faucibus interdum, nunc 
+            lacus tristique purus, eu iaculis quam ligula id diam. 
+            Nam sed faucibus est. Sed id congue purus, nec ultricies 
+            risus.</p>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="research-topic-three">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <h2>Human Microbiome</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Maecenas fringilla, felis sed faucibus interdum, nunc 
+            lacus tristique purus, eu iaculis quam ligula id diam. 
+            Nam sed faucibus est. Sed id congue purus, nec ultricies 
+            risus.</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <h3>Selected Publication</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Maecenas fringilla, felis sed faucibus interdum, nunc 
+                      lacus tristique purus, eu iaculis quam ligula id diam. 
+                      Nam sed faucibus est. Sed id congue purus, nec ultricies 
+                      risus. Sed efficitur, lacus a tincidunt luctus, augue nunc 
+                      tempor magna, sit amet varius nunc arcu at tortor. Integer 
+                      cursus aliquam mauris ac euismod. Integer porta mattis 
+                      molestie. Nam dictum lacus et tempus vestibulum. Phasellus 
+                      sed tincidunt nunc. Nunc iaculis finibus nunc non molestie. 
+                      Phasellus et magna id tortor ornare pulvinar sit amet ut enim. 
+                      xSed a massa et neque ultrices efficitur.
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="research-topic-four">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h3>Selected Publication</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Maecenas fringilla, felis sed faucibus interdum, nunc 
+                      lacus tristique purus, eu iaculis quam ligula id diam. 
+                      Nam sed faucibus est. Sed id congue purus, nec ultricies 
+                      risus. Sed efficitur, lacus a tincidunt luctus, augue nunc 
+                      tempor magna, sit amet varius nunc arcu at tortor. Integer 
+                      cursus aliquam mauris ac euismod. Integer porta mattis 
+                      molestie. Nam dictum lacus et tempus vestibulum. Phasellus 
+                      sed tincidunt nunc. Nunc iaculis finibus nunc non molestie. 
+                      Phasellus et magna id tortor ornare pulvinar sit amet ut enim. 
+                      xSed a massa et neque ultrices efficitur.
+        </div>
+        <div class="col-12 col-lg-4">
+          <h2>Single Cell Analysis</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Maecenas fringilla, felis sed faucibus interdum, nunc 
+            lacus tristique purus, eu iaculis quam ligula id diam. 
+            Nam sed faucibus est. Sed id congue purus, nec ultricies 
+            risus.</p>
+        </div>
+      </div>  
+    </div>
+  </div>
 
 
   <script type="text/javascript" src="js/mdb.min.js"></script>

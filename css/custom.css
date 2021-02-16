@@ -7,33 +7,50 @@
 .head-section-people{
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#9b2c01,#c09f26)
 }
-.head-section-research{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#296f2b,#0e635c)
-}
-.head-section-contact{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#4b22a9,#0e635c)
-}
 .head-section-software{
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#4b22a9,#707925)
 }
 .head-section-publications{
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#c15271,#0e635c)
 }
-.head-section-contact a:hover{
-    color:#94e4e8;
+.head-section-news{
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#1b1593,#65e5ee)
 }
-.head-section-software a:hover{
+.research-topic-one{
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#ea80fcd6,#597fbad6);
+    padding: 2em;
+    text-align: justify;
+}
+.research-topic-two{
+    background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#17968bd6,#abe476d6);
+    padding: 2em;
+    text-align: justify;
+}
+.research-topic-three{
+    background:url("../img/hero.svg") no-repeat top 0 right -169px/70%,linear-gradient(to right,#ebed68d6,#597fbad6);
+    padding: 2em;
+    text-align: justify;
+}
+.research-topic-four{
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#cd6481d6,#1ba79bd6);
+    padding: 2em;
+    text-align: justify;
+}
+.head-section-software a:hover,.head-section-software .presentation a:hover{
     color:#bce8a6;
+}
+.head-section-software .presentation a{
+    color: #e0a1ff;
 }
 .head-section-publications a:hover{
     color:#ffbbe3;
 }
-.head-section-research a:hover{
-    color:#99d9ff;
+.lab-photo{
+    background:url("../img/homepage/people.jpg") no-repeat top 0 right 0px/100% ;
+    min-height: 15em;
+    max-width: 23em;
+    margin:auto
 }
-
-
-
 
 .head-section nav{
     background-color: #ffffff1a;
@@ -51,6 +68,10 @@
 .head-section button{
     color:white
 }
+.container-md-home{
+    text-align: center;
+    margin-bottom: 2em;
+}
 .presentation{
     text-align: center;
     padding: 5em;
@@ -66,6 +87,10 @@
     display: inline;
     color: white;
 }
+.presentation a{
+    text-decoration: underline;
+    color: #f596b8;
+}
 .presentation span{
     color:#a9fbff;
 }
@@ -73,23 +98,46 @@
     color: white;
 }
 .presentation-text{
-    max-width: 30em;
+    max-width: 32em;
     margin:auto;
     margin-top: 2em;
 }
-.research{
-    padding: 3em;
-    text-align: justify;
-}
 .row{
     margin-top: 2em;
+    justify-content: space-around;
 }
 .accordion h2, .accordion .accordion-collapse{
     border: white;
 }
 .container-people a{
-    color: #f3ad6f;
-    text-decoration:underline
+    color: #c76704;
+    font-size: 1em;
+    padding: 0;
+    text-decoration: underline;
+}
+.container-people h2, .container-people h3{
+    font-size: 2em;
+    color: #c76704;
+}
+.container-people h3{
+    margin-bottom: 1em;
+}
+.other-members{
+    text-align: center;
+    border-bottom-color: #b9b9b9;
+    border-bottom-style: double;
+}
+.other-members p{
+    display: inline-block;
+    border: gray;
+    border-style: double;
+    padding: 1em;
+}
+.card .accordion-button{
+    display: block;
+}
+.accordion-button h2{
+    font-size: 1.2em;
 }
 .container-people .card-text{
     font-weight: bold;
@@ -113,15 +161,17 @@
 .publications-container{
     margin-top: 4em;
 }
-.publications-container .card, .container-people .card{
+.publications-container .card, .container-people .card, .container-software .card{
     margin-bottom: 2em;
 }
-.publications-container .card-text, .container-people .card{
+.container-people .card{
     font-size: 0.8em;
 }
-.publications-container .card-body a, .container-people .card-body a{
-    font-size: 0.7em;
-    padding: 1em;
-    color: white;
-    text-decoration: none;
+.container-news img{
+    width: 100%;
+    margin-top:2em;
 }
+.container-news h2{
+    color:#1f1e97
+}
+
