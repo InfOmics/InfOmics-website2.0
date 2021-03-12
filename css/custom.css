@@ -41,13 +41,13 @@
     color: #313131;
 }
 .research-topic-five{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#cdbe64d6,#c58b12);
+    background:url("../img/hero.svg") no-repeat top 0 right 20px/90%,linear-gradient(to right,#cdbe64d6,#c58b12);
     padding: 2em;
     text-align: justify;
     color: #313131;
 }
 .research-topic-six{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#b868bad6,#9e5c8d);
+    background:url("../img/hero.svg") no-repeat top 0 right -120px/50%,linear-gradient(to right,#b868bad6,#9e5c8d);
     padding: 2em;
     text-align: justify;
     color: #313131;
