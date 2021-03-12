@@ -17,25 +17,42 @@
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#1b1593,#65e5ee)
 }
 .research-topic-one{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#ea80fcd6,#597fbad6);
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#17968bd6,#179656d6);
     padding: 2em;
     text-align: justify;
+    color: #313131;
 }
 .research-topic-two{
-    background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#17968bd6,#abe476d6);
+    background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#4b85a8,#9487c8d6);
     padding: 2em;
     text-align: justify;
+    color: #313131;
 }
 .research-topic-three{
-    background:url("../img/hero.svg") no-repeat top 0 right -169px/70%,linear-gradient(to right,#ebed68d6,#597fbad6);
+    background:url("../img/hero.svg") no-repeat top 0 right -169px/70%,linear-gradient(to right,#b56f37c2,#e46640);
     padding: 2em;
     text-align: justify;
+    color: #313131;
 }
 .research-topic-four{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#cd6481d6,#1ba79bd6);
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#cd6481d6,#ae5552);
     padding: 2em;
     text-align: justify;
+    color: #313131;
 }
+.research-topic-five{
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#cdbe64d6,#c58b12);
+    padding: 2em;
+    text-align: justify;
+    color: #313131;
+}
+.research-topic-six{
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#b868bad6,#9e5c8d);
+    padding: 2em;
+    text-align: justify;
+    color: #313131;
+}
+
 .head-section-software a:hover,.head-section-software .presentation a:hover{
     color:#bce8a6;
 }
@@ -121,17 +138,10 @@
 }
 .container-people h3{
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 .other-members{
     text-align: center;
-    border-bottom-color: #b9b9b9;
-    border-bottom-style: double;
-}
-.other-members p{
-    display: inline-block;
-    border: gray;
-    border-style: double;
-    padding: 1em;
 }
 .card .accordion-button{
     display: block;
