@@ -62,13 +62,6 @@
 .head-section-publications a:hover{
     color:#ffbbe3;
 }
-.lab-photo{
-    background:url("../img/homepage/people.jpg") no-repeat top 0 right 0px/100% ;
-    min-height: 15em;
-    max-width: 23em;
-    margin:auto
-}
-
 .head-section nav{
     background-color: #ffffff1a;
 }
@@ -89,6 +82,16 @@
     text-align: center;
     margin-bottom: 2em;
 }
+.container-md-home .col-12{
+    margin-top: 2em;
+}
+.container-md-home .lab-photo{
+    background:url("../img/homepage/people.png") no-repeat top 0 right 0px/100% ;
+    min-height: 20em;
+    max-width: 30em;
+    margin:auto;
+}
+
 .presentation{
     text-align: center;
     padding: 5em;
@@ -143,6 +146,13 @@
 .other-members{
     text-align: center;
 }
+.other-members{
+    align-items: center;
+}
+.other-members p{
+    display: inline;
+    
+}
 .card .accordion-button{
     display: block;
 }
@@ -155,6 +165,9 @@
 }
 #map{
     margin-top: 3em;
+}
+.container-contact{
+    margin-bottom: 2em;
 }
 .container-contact p{
     margin:0;
