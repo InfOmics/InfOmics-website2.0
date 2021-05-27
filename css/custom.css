@@ -71,6 +71,9 @@
 .head-section-home a:hover{
     color: #81dfd7;
 }
+.head-section-news a:hover{
+    color: #cdffdc;
+}
 .head-section-people a:hover{
     color: #dbe364;
 }
