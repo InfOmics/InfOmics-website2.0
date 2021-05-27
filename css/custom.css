@@ -2,7 +2,7 @@
     margin-left: 2em;
 }
 .head-section-home{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#01579b,#59b988)
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#c13939,#c34e8a)
 }
 .head-section-people{
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#9b2c01,#c09f26)
@@ -17,41 +17,24 @@
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#1b1593,#65e5ee)
 }
 .research-topic-one{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#17968bd6,#179656d6);
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#d26b00c2,#dcb767);
     padding: 2em;
     text-align: justify;
     color: #313131;
 }
 .research-topic-two{
-    background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#4b85a8,#9487c8d6);
+    background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#dcdaa3,#efd313d6);
     padding: 2em;
     text-align: justify;
     color: #313131;
 }
 .research-topic-three{
-    background:url("../img/hero.svg") no-repeat top 0 right -169px/70%,linear-gradient(to right,#b56f37c2,#e46640);
+    background:url("../img/hero.svg") no-repeat top 0 right -169px/70%,linear-gradient(to right,#50a55ed6,#c0f1c9);
     padding: 2em;
     text-align: justify;
     color: #313131;
 }
-.research-topic-four{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#cd6481d6,#ae5552);
-    padding: 2em;
-    text-align: justify;
-    color: #313131;
-}
-.research-topic-five{
-    background:url("../img/hero.svg") no-repeat top 0 right 20px/90%,linear-gradient(to right,#cdbe64d6,#c58b12);
-    padding: 2em;
-    text-align: justify;
-    color: #313131;
-}
-.research-topic-six{
-    background:url("../img/hero.svg") no-repeat top 0 right -120px/50%,linear-gradient(to right,#b868bad6,#9e5c8d);
-    padding: 2em;
-    text-align: justify;
-    color: #313131;
-}
+
 
 .head-section-software a:hover,.head-section-software .presentation a:hover{
     color:#bce8a6;
@@ -85,42 +68,40 @@
 .container-md-home .col-12{
     margin-top: 2em;
 }
-.container-md-home .lab-photo{
-    background:url("../img/homepage/people.png") no-repeat top 0 right 0px/100% ;
-    min-height: 20em;
-    max-width: 30em;
-    margin:auto;
+
+.vertical_align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.presentation{
+.presentation-text{
     text-align: center;
-    padding: 5em;
-    margin:auto
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 32em;
+    margin:auto;
+    color: white;
 }
-.presentation img{
+.presentation-text-home{
+    color: black;
+}
+.group-logo{
     width: 70%;
     max-width: 20em;
     display:block;
     margin: auto;
 }
+.people-photo{
+    width: 100%;
+}
 .presentation p{
     display: inline;
-    color: white;
 }
 .presentation a{
     text-decoration: underline;
     color: #f596b8;
-}
-.presentation span{
-    color:#a9fbff;
-}
-.presentation h1, .presentation h2{
-    color: white;
-}
-.presentation-text{
-    max-width: 32em;
-    margin:auto;
-    margin-top: 2em;
 }
 .row{
     margin-top: 2em;
@@ -199,4 +180,15 @@
 }
 .video{
     margin-top: 2em;
+}
+.research-topic-three img, .research-topic-one img,.research-topic-two img{
+    max-width: 100%;
+}
+.presentation{
+    text-align: center;
+    padding: 5em;
+    margin:auto
+}
+.presentation h1, .presentation h2{
+    color: white;
 }
