@@ -22,6 +22,10 @@
     text-align: justify;
     color: #313131;
 }
+.contact-and-info{
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/50%,linear-gradient(to right,#c13939,#c34e8a);
+    padding: 2em;
+}
 .research-topic-two{
     background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#dcdaa3,#efd313d6);
     padding: 2em;
@@ -63,10 +67,13 @@
 }
 .container-md-home{
     text-align: center;
-    margin-bottom: 2em;
+    color: #313131;
 }
 .container-md-home .col-12{
     margin-top: 2em;
+}
+.container-md-home .row{
+    padding-bottom: 2em;
 }
 
 .vertical_align{
@@ -159,7 +166,7 @@
     margin-top: 1em;
 }
 .container-contact a{
-    color: #9884ff;
+    color: #ffffff;
     text-decoration:underline
 }
 .publications-container{
