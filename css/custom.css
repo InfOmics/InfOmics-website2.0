@@ -206,6 +206,8 @@
 }
 .presentation{
     text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 .presentation .row{
     display: flex;
@@ -217,8 +219,12 @@
 }
 .index h1{
     text-align: center;
-    margin: 2em;
+    margin: 0.5em;
 }
 .index h2{
     text-align: center;
+}
+.research-topic-one a,.research-topic-two a,.research-topic-three a{
+    color: white;
+    text-decoration: underline;
 }
