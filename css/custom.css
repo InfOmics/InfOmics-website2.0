@@ -231,3 +231,6 @@
     color: white;
     text-decoration: underline;
 }
+#accordionFlushExample button{
+    text-align: left;
+}
