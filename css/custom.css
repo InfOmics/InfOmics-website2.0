@@ -212,8 +212,25 @@
 }
 .container-news img{
     width: 100%;
-    margin-top:2em;
 }
+.container-news h2, .container-news h3{
+    text-align: center;
+}
+.container-news h2{
+    margin-top: 2em;
+}
+.container-news h3{
+    color: #54a1c1;
+}
+
+
+.container-news .row .col-12{
+    margin-top: 3em;
+}
+.container-news .row{
+    margin:0;
+}
+
 .container-news h2{
     color:#1f1e97
 }
@@ -250,3 +267,23 @@
 #accordionFlushExample button{
     text-align: left;
 }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00000087; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
