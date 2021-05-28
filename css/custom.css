@@ -1,8 +1,11 @@
 .navbar-brand{
     margin-left: 2em;
 }
+#navbarSupportedContent ul{
+    align-items: center;
+}
 .head-section-home{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#01579b,#59b988)
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#bda85c,#bda85c)
 }
 .head-section-people{
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#9b2c01,#c09f26)
@@ -17,42 +20,31 @@
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#1b1593,#65e5ee)
 }
 .research-topic-one{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#17968bd6,#179656d6);
-    padding: 2em;
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#e87860,#e87860);
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: justify;
     color: #313131;
+    margin-bottom: 1em;
+}
+.contact-and-info{
+    background:url("../img/hero.svg") no-repeat top 0 right 169px/150%,linear-gradient(to right,#d5b7e8,#d5b7e8);
 }
 .research-topic-two{
-    background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#4b85a8,#9487c8d6);
-    padding: 2em;
+    background:url("../img/hero.svg") no-repeat top 0 right 69px/120%,linear-gradient(to right,#a9b8ab,#a9b8ab);
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: justify;
     color: #313131;
+    margin-bottom: 1em;
 }
 .research-topic-three{
-    background:url("../img/hero.svg") no-repeat top 0 right -169px/70%,linear-gradient(to right,#b56f37c2,#e46640);
-    padding: 2em;
+    background:url("../img/hero.svg") no-repeat top 0 right -169px/70%,linear-gradient(to right,#b53d50,#b53d50);
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: justify;
     color: #313131;
 }
-.research-topic-four{
-    background:url("../img/hero.svg") no-repeat top 0 right 169px/130%,linear-gradient(to right,#cd6481d6,#ae5552);
-    padding: 2em;
-    text-align: justify;
-    color: #313131;
-}
-.research-topic-five{
-    background:url("../img/hero.svg") no-repeat top 0 right 20px/90%,linear-gradient(to right,#cdbe64d6,#c58b12);
-    padding: 2em;
-    text-align: justify;
-    color: #313131;
-}
-.research-topic-six{
-    background:url("../img/hero.svg") no-repeat top 0 right -120px/50%,linear-gradient(to right,#b868bad6,#9e5c8d);
-    padding: 2em;
-    text-align: justify;
-    color: #313131;
-}
-
 .head-section-software a:hover,.head-section-software .presentation a:hover{
     color:#bce8a6;
 }
@@ -83,47 +75,56 @@
 }
 .container-md-home{
     text-align: center;
-    margin-bottom: 2em;
+    color: #313131;
 }
 .container-md-home .col-12{
     margin-top: 2em;
 }
-.container-md-home .lab-photo{
-    background:url("../img/homepage/people.png") no-repeat top 0 right 0px/100% ;
-    min-height: 20em;
-    max-width: 30em;
-    margin:auto;
+.container-md-home .row{
+    padding-bottom: 2em;
 }
 
-.presentation{
+.vertical_align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 5em;
-    margin:auto
 }
-.presentation img{
+@media (min-width: 991px) { 
+    .vertical_align_important{
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+.presentation-text{
+    text-align: center;
+    max-width: 32em;
+    margin:auto;
+    color: white;
+}
+.presentation-text-home{
+    color: black;
+}
+.group-logo{
     width: 70%;
     max-width: 20em;
     display:block;
     margin: auto;
 }
+.people-photo{
+    width: 100%;
+}
 .presentation p{
     display: inline;
-    color: white;
+    font-size: 1.1em;
 }
 .presentation a{
     text-decoration: underline;
     color: #f596b8;
-}
-.presentation span{
-    color:#a9fbff;
-}
-.presentation h1, .presentation h2{
-    color: white;
-}
-.presentation-text{
-    max-width: 32em;
-    margin:auto;
-    margin-top: 2em;
 }
 .row{
     margin-top: 2em;
@@ -181,7 +182,7 @@
     margin-top: 1em;
 }
 .container-contact a{
-    color: #9884ff;
+    color: #ffffff;
     text-decoration:underline
 }
 .publications-container{
@@ -202,4 +203,31 @@
 }
 .video{
     margin-top: 2em;
+}
+.research-topic-three img, .research-topic-one img,.research-topic-two img{
+    max-width: 100%;
+}
+.presentation{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.presentation .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentation h1, .presentation h2{
+    color: white;
+}
+.index h1{
+    text-align: center;
+    margin: 0.5em;
+}
+.index h2{
+    text-align: center;
+}
+.research-topic-one a,.research-topic-two a,.research-topic-three a{
+    color: white;
+    text-decoration: underline;
 }
