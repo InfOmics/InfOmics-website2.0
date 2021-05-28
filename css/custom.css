@@ -194,6 +194,22 @@
 .container-people .card{
     font-size: 0.8em;
 }
+.software-row{
+    border-bottom: 5px solid #D1D4D7;
+    padding-top: 24px!important;
+    padding-bottom: 24px!important;
+    text-align: justify;
+    color: #313131;
+}
+.software-row img{
+    width: 100%;
+    margin-top:2em;
+}
+.button-size{
+    width: 150px;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important 
+}
 .container-news img{
     width: 100%;
     margin-top:2em;
