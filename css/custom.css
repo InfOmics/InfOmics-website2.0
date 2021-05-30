@@ -8,16 +8,16 @@
     background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#bda85c,#bda85c)
 }
 .head-section-people{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#9b2c01,#c09f26)
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#d5b7e8,#d5b7e8)
 }
 .head-section-software{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#4b22a9,#707925)
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#e87860,#e87860)
 }
 .head-section-publications{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#c15271,#0e635c)
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#a9b8ab,#a9b8ab)
 }
 .head-section-news{
-    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#1b1593,#65e5ee)
+    background:url("../img/hero.svg") no-repeat top 0 right -69px/126%,linear-gradient(to right,#b53d50,#b53d50)
 }
 .research-topic-one{
     background:url("../img/hero.svg") no-repeat top 0 right 169px/98%,linear-gradient(to right,#e87860,#e87860);
@@ -46,30 +46,24 @@
     color: #313131;
 }
 .head-section-software a:hover,.head-section-software .presentation a:hover{
-    color:#bce8a6;
+    color:#292929c7;
 }
-.head-section-software .presentation a{
-    color: #e0a1ff;
-}
-.head-section-publications a:hover{
-    color:#ffbbe3;
+a:hover{
+    color:#292929c7
 }
 .head-section nav{
     background-color: #ffffff1a;
 }
-.head-section a{
+a{
     color: white;
+    text-decoration: underline;
 }
-.head-section-home a:hover{
-    color: #81dfd7;
+.container-people a{
+    color: black;
 }
-.head-section-news a:hover{
-    color: #cdffdc;
+.container-people a:hover{
+    color: rgb(123, 123, 123);
 }
-.head-section-people a:hover{
-    color: #dbe364;
-}
-
 .head-section button{
     color:white
 }
@@ -122,10 +116,7 @@
     display: inline;
     font-size: 1.1em;
 }
-.presentation a{
-    text-decoration: underline;
-    color: #f596b8;
-}
+
 .row{
     margin-top: 2em;
     justify-content: space-around;
@@ -133,12 +124,7 @@
 .accordion h2, .accordion .accordion-collapse{
     border: white;
 }
-.container-people a{
-    color: #c76704;
-    font-size: 1em;
-    padding: 0;
-    text-decoration: underline;
-}
+
 .container-people h2, .container-people h3{
     font-size: 2em;
     color: #c76704;
@@ -181,10 +167,7 @@
     margin:0;
     margin-top: 1em;
 }
-.container-contact a{
-    color: #ffffff;
-    text-decoration:underline
-}
+
 .publications-container{
     margin-top: 4em;
 }
@@ -222,8 +205,6 @@
 .container-news h3{
     color: #54a1c1;
 }
-
-
 .container-news .row .col-12{
     margin-top: 3em;
 }
@@ -260,10 +241,7 @@
 .index h2{
     text-align: center;
 }
-.research-topic-one a,.research-topic-two a,.research-topic-three a{
-    color: white;
-    text-decoration: underline;
-}
+
 #accordionFlushExample button{
     text-align: left;
 }
@@ -282,8 +260,17 @@
     padding: 5px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
-  }
+}
   
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
+#myBtn:hover {
+background-color: #555; /* Add a dark-grey background on hover */
+}
+.meme iframe{
+    width: 100%;
+}
+.meme{
+    margin-top: 2em;
+}
+.more-projects a{
+    color: #64c7f1;
+}
