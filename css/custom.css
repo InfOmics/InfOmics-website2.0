@@ -276,3 +276,11 @@ background-color: #555; /* Add a dark-grey background on hover */
 .meme{
     margin-top: 2em;
 }
+@media (max-width: 420px) { 
+    .meme iframe{
+        height: 20em;
+    }
+}
+.positions{
+    margin-bottom: 3em;
+}
